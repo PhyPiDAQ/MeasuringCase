@@ -15,5 +15,6 @@ If you are looking for software, educational concepts or additional hardware gui
 [repositories](https://github.com/PhyPiDAQ).
 
 ## Additional notes
+
 * [Masterarbeit von Moritz Aupperle](https://publish.etp.kit.edu/record/21520)
 * [Bachelor-Arbeit von Dominik Braig](https://publish.etp.kit.edu/record/21995)
