@@ -21,3 +21,12 @@ Software oder pädagogischen Konzepten suchen, schauen Sie sich bitte unsere and
 
 * [Masterarbeit von Moritz Aupperle](https://publish.etp.kit.edu/record/21520)
 * [Bachelor-Arbeit von Dominik Braig](https://publish.etp.kit.edu/record/21995)
+
+## Unterstützung
+
+Informationen, wie man dieses Projekt unterstützen kann, findet man in der [CONTRIBUTING.md](CONTRIBUTING.md)-Datei.
+
+## Lizenz
+
+Dieses Projekt ist unter der `MIT BSD 2-Clause License` lizenziert. Für weitere Informationen die
+[LICENSE](LICENSE)-Datei konsultieren.
