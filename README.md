@@ -1,8 +1,8 @@
 # PhyPiDAQ  Description of Measurement Case
 
-[Document in English](Documentation_en.md)
+[Build instructions for measurement case](Documentation_en.md)
 
-[Dokumentation in deutscher Sprache](Dokumentation_de.md)
+[Bauanleitung für Messkoffer in deutscher Sprache](Dokumentation_de.md)
 
 
 ## Summary in English language  
@@ -26,11 +26,12 @@ und Datenerfassung zu geben. Da es auf offenen, standardisierten Protokollen und
 Hardware basiert, kann es nicht nur kostengünstig eingerichtet werden, sondern bietet auch eine 
 hervorragende pädagogische Einführung in die Messmethoden der modernen Wissenschaft. Die Messtechnik 
 kann mit einer Powerbank betrieben werden, was sie tragbar macht und Experimente auch in freier Natur
-ermöglicht. *PhyPiDAQ* richtet sich an SchülerInnen von der Mittelstufe bis hin zu Studierenden auf Universitätsebene. 
+ermöglicht. *PhyPiDAQ* richtet sich an SchülerInnen von der Mittelstufe bis hin zu Studierenden auf
+Universitätsebene. 
 
 Die [Dokumentation](Dokumentation_de.md) hier beschreibt den Aufbau eines Messkoffers, mit dem
 sich die in der Anleitung für Lehrkräfte beschriebenen Experimente realisieren lassen. 
-Wenn nach einer detaillierten Beschreibung der Software oder einer allgemeinen
+Wenn Sie nach einer detaillierten Beschreibung der Software oder einer allgemeinen
 Anleitung  zur Verwendung von *PhyPhDAQ* suchen, schauen Sie sich bitte unsere anderen
 [Repositories](https://github.com/PhyPiDAQ) an.
 
