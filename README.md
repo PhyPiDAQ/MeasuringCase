@@ -19,6 +19,13 @@ measurement case providing all the hardware needed for the experiments described
 If you are looking for software details or a general despription for educators, please check out our
 other [repositories](https://github.com/PhyPiDAQ).
 
+#### Currently available Documentation
+
+ - [Software Description](https://github.com/PhyPiDAQ/PhyPiDAQ/blob/main/Documentation_en.md)
+ - [Educators Guide](https://github.com/PhyPiDAQ/EducatorsGuide/blob/main/EducatorsGuide.md)
+ - [Hardware build instructions](https://github.com/PhyPiDAQ/MeasuringCase/blob/main/Documentation_en.md)
+
+
 ## Übersicht in Deutscher Sprache
 
 Das PhyPiDAQ-Projekt zielt darauf ab, Studierenden und SchülerInnen Zugang zu modernster Messtechnik
@@ -34,4 +41,22 @@ sich die in der Anleitung für Lehrkräfte beschriebenen Experimente realisieren
 Wenn Sie nach einer detaillierten Beschreibung der Software oder einer allgemeinen
 Anleitung  zur Verwendung von *PhyPhDAQ* suchen, schauen Sie sich bitte unsere anderen
 [Repositories](https://github.com/PhyPiDAQ) an.
+
+#### Derzeit verfügbare Dokumentation
+
+ - [Anleitung für Lehrkräfte](https://github.com/PhyPiDAQ/EducatorsGuide/blob/main/Anleitung.md)
+ - [Einführungskurs für Schülerinnen und Schüler](
+     https://github.com/PhyPiDAQ/EducatorsGuide/blob/main/docs/Kurs_digitale_Messwerterfassung_mit_PhyPiDAQ.md)
+ - [Beschreibung der Software](https://github.com/PhyPiDAQ/PhyPiDAQ/blob/main/Dokumentation_de.md)
+ - [Bauanleitung Messkoffer](https://github.com/PhyPiDAQ/MeasuringCase/blob/main/Dokumentation_de.md)
+
+## Contributing
+
+For information on how to contribute to this project, please refer to the 
+[CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
+
+This project is licensed under the `MIT BSD 2-Clause License`. For more information refer to the 
+[LICENSE](LICENSE) file.
 
