@@ -38,8 +38,14 @@ for own experiments or for a quick demonstration can be easily provided.
 
 A large number of sensors, such as various analog-digital converters,  current sensors, 
 environmental data sensors, gamma ray detectors or a usb-oscilloscope, are supported.
-Here, widespread and inexpensive sensors were used, which have a sufficient level
- of accuracy that is more than sufficient for school experiments.  
+Here, widespread and inexpensive sensors were used, which have a sufficient level 
+of accuracy that is more than sufficient for school experiments. A typical example
+of a measruement ist shown in Fig. 1.
+
+*Fig. 1*:  Representation of the time dependence of two signal sources  
+  (square wave and capacitor voltage) connected to an AD converter  
+                    ![Figure 1](Hardware/Fotos/Kondensator.png)  
+
 
 The sensors can be individually connected to the Raspberry Pi using jumper cables, 
 or via a printed board specially designed for use with the PhyPiDAQ software on which
@@ -48,16 +54,14 @@ cabling efforts to a minimum and experiments can be set up quickly.  A 3d printe
 connection panel and a printed circuit-board  are available so that all components
 can be conveniently  provided  in an organizer case.  
 
-*Fig. 1*:  Representation of the time dependence of two signal sources  
-  (square wave and capacitor voltage) connected to an AD converter  
-                    ![Figure 1](Hardware/Fotos/Kondensator.png)  
-
 This manual describes a proposal for a measurement case that can be used generally for 
 data acquisition, containing various components for the measurement of voltages and 
 currents as well as an electrometer amplifier circuit for high-resistance measurements of 
 electric charges or smallest currents and an instrumentation amplifier for the registration 
-of voltages in the µV range. A prototype version of the case is shown in Fig. 2a, and
-the circuit diagram in Fig. 2b.
+of voltages in the µV range. Convenient for adaptation to the voltage range of 0-5\&nbsp;V 
+of typical analogue-to-digital converters is a level converter. A digital-to-analogue 
+converter and a reference voltage adjustable by means of a potentiometer are also provided.
+A prototype version of the case is shown in Fig. 2a, and the circuit diagram in Fig. 2b.
 
 
 *Fig. 2a*:  Measurement case with Raspberry Pi, circuit board and built-in display  
@@ -65,8 +69,12 @@ the circuit diagram in Fig. 2b.
 
 
 *Fig. 2b*:  Circuit Diagram  
-                    ![Figure 2b](Hardware/Schaltplan_klein.png)  
+                    ![Figure 2b](Hardware/Schematics/Schaltplan_klein.png)  
 
+The assembly instructions for the measuring case can be found in the following chapters. 
+Concrete applications and more detailed descriptions of the necessary amplifier circuits 
+can be found in the 
+[Educators Guide](https://github.com/PhyPiDAQ/EducatorsGuide/blob/main/EducatorsGuide.md)
 
 <a name="wasbraucheichundwiebaueichdaszusammen"></a>  
 

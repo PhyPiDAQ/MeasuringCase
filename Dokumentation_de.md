@@ -11,7 +11,7 @@ Here is the [English version](Documentation_en.md).
 
 In dieser Anleitung wird der Aufbau eines Messkoffers beschrieben,
 mit dem die in der Anleitung für Lehrkräfte beschriebenen Experimente
-durchteführt werden können.
+durchgeführt werden können.
 
 - [Was ist PhyPiDAQ ?](#wasistphypidaq)
 - [Was brauche ich und wie baue ich das zusammen ?](#wasbraucheichundwiebaueichdaszusammen)
@@ -28,21 +28,29 @@ PhyPiDAQ ist ein Projekt zur transparenten, einfach verständlichen Datenerfassu
 
 Die Bedienoberfläche ist so gestaltet, dass vorgefertigte Templates für viele Sensoren benutzt werden können, um diese somit einfach und schnell auszulesen. Darüber hinaus bietet sie aber auch die Möglichkeit, die einzelnen Parameter wie Abtastrate, Intervall, Achsenbeschriftung, Differentieller Modus, Funktionen zur direkten Umrechnung und viele mehr zu verändern. Die Einstellungen lassen sich bequem abspeichern und wieder aufrufen, sodass ein Demonstationsversuch schnell gezeigt werden kann.
 
-Es wird bereits eine Vielzahl unterschiedlicher Sensoren, wie verschiedene Analog-Digital-Wandler, Stromsensoren, Klimadatensensoren, Gammadetektoren etc. unterstützt. Hierbei wurde auf weit verbreitete und preiswerte Sensoren gesetzt, welche eine hohe Genauigkeit aufweisen, die für Schulversuche mehr als ausreichend ist.
-
-Die Sensoren können einzeln mittels sogenannter Jumper-Kabeln mit dem Raspberry Pi verbunden werden, oder es kann die eigens für PhyPiDAQ entworfene Platine verwendet werden, auf welcher die Sensoren fest angebracht werden. Dadurch kann der Verkabelungsaufwand auf ein Mindestmaß reduziert werden und Versuche können auch schnell in der 5-Minuten-Pause aufgebaut werden. Mit maßgeschneiderten 3D-gedruckten Modellen kann alles geräumig in einem Organizer-Koffer befestigt werden.  
+Es wird bereits eine Vielzahl unterschiedlicher Sensoren, wie verschiedene Analog-Digital-Wandler, Stromsensoren, Klimadatensensoren, Gammadetektoren etc. unterstützt. Hierbei wurde auf weit verbreitete und preiswerte Sensoren gesetzt, welche eine genügend hohe Genauigkeit aufweisen, die für Schulversuche mehr als ausreichend ist. Ein typisches Beispiel ist in Abb. 1 gezeigt.
 
   *Abb. 1*:  Darstellung der Zeitabhängigkeit von zwei Signalquellen  
               (Kondensatorspannung an Rechteckspannung) an einem AD-Wandler  
                     ![Figure 1](Hardware/Fotos/Kondensator.png)  
 
+
+Die Sensoren können einzeln mittels sogenannter Jumper-Kabeln mit dem Raspberry Pi verbunden werden, 
+oder es kann die eigens für PhyPiDAQ entworfene Platine verwendet werden, auf welcher die Sensoren 
+fest angebracht werden. Dadurch kann der Verkabelungsaufwand auf ein Mindestmaß reduziert werden und 
+Versuche können auch schnell in der 5-Minuten-Pause aufgebaut werden. Mit maßgeschneiderten  
+3D-gedruckten Modellen kann alles geräumig in einem Organizer-Koffer befestigt werden.  
+
+
 Diese Anleitung beschreibt einen Vorschlag für einen allgemein zur Datenaufnahme 
 verwendbaren Messkoffer, in dem verschiedene Komponenten zur digitalen Erfassung 
-von Spannungen und Strömen sowie einfache Verstärkerschaltungen zur hochomigen 
+von Spannungen und Strömen sowie einfache Verstärkerschaltungen zur hochohmigen 
 Messungen von elektrischen Ladungen als Spannung über einem Kondensator oder von
 kleinsten Strömen als Spannungsabfall über einem Widerstand von 100&nbsp;MΩ - 1&nbsp;GΩ 
 und zur Verstärkung von Spannungen im µV-Bereich mit einem Instrumentenverstärker 
-enthalten sind. 
+enthalten sind. Praktisch zur Anpassung an den Spannungsbereich von 0-5\&nbsp;V 
+typischer Analog-Digital-Wandler ist auch ein Pegelwandler. Ein Digital-Analogwandler
+sowie eine mittels Potentiometer einstellbare Referenzspannung sind ebenfalls vorgesehen.
 Abb.2a zeigt ein Foto des Aufbaus, und der Schaltplan ist in Abb. 2b gezeigt. 
 
 
@@ -50,12 +58,18 @@ Abb.2a zeigt ein Foto des Aufbaus, und der Schaltplan ist in Abb. 2b gezeigt.
                     ![Figure 2a](Hardware/Fotos/koffer_0.png)  
 
 *Abb. 2b*:  Schaltplan der im Koffer enthaltenen Komponenten  
-                    ![Figure 2b](Hardware/Schaltplan_klein.png)  
+                    ![Figure 2b](Hardware/Schematics/Schaltplan_klein.png)  
+
+Die Bauanleitung für den Messkoffer findet sich in den folgenden Kapiteln. 
+Konkrete Anwendungen und genauere Beschreibungen der ggb. notwendigen 
+Verstärkerschaltungen finden Sie in der 
+[Anleitung für Lehrkräfte](https://github.com/PhyPiDAQ/EducatorsGuide/blob/main/Anleitung.md)
 
 
 <a name="wasbraucheichundwiebaueichdaszusammen"></a>  
 
 ## 2. Was brauche ich und wie baue ich das zusammen ?  
+
 Die Software ist quelloffen und kann auf dieser Github-Seite heruntergeladen  werden.  
 Die ausführliche Installation wird [hier](#wiesetzeichdenraspberrypiauf)   beschrieben.
 
