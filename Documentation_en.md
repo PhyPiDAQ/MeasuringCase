@@ -48,12 +48,25 @@ cabling efforts to a minimum and experiments can be set up quickly.  A 3d printe
 connection panel and a printed circuit-board  are available so that all components
 can be conveniently  provided  in an organizer case.  
 
- *Fig. 1*:  Representation of the time dependence of two signal sources  
+*Fig. 1*:  Representation of the time dependence of two signal sources  
   (square wave and capacitor voltage) connected to an AD converter  
                     ![Figure 1](Hardware/Fotos/Kondensator.png)  
 
-*Fig. 2*:  Measurement case with Raspberry Pi, circuit board and built-in display  
-                    ![Figure 2](Hardware/Fotos/koffer_0.png)  
+This manual describes a proposal for a measurement case that can be used generally for 
+data acquisition, containing various components for the measurement of voltages and 
+currents as well as an electrometer amplifier circuit for high-resistance measurements of 
+electric charges or smallest currents and an instrumentation amplifier for the registration 
+of voltages in the µV range. A prototype version of the case is shown in Fig. 2a, and
+the circuit diagram in Fig. 2b.
+
+
+*Fig. 2a*:  Measurement case with Raspberry Pi, circuit board and built-in display  
+                    ![Figure 2a](Hardware/Fotos/koffer_0.png)  
+
+
+*Fig. 2b*:  Circuit Diagram  
+                    ![Figure 2b](Hardware/Schaltplan_klein.png)  
+
 
 <a name="wasbraucheichundwiebaueichdaszusammen"></a>  
 

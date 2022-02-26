@@ -32,12 +32,26 @@ Es wird bereits eine Vielzahl unterschiedlicher Sensoren, wie verschiedene Analo
 
 Die Sensoren können einzeln mittels sogenannter Jumper-Kabeln mit dem Raspberry Pi verbunden werden, oder es kann die eigens für PhyPiDAQ entworfene Platine verwendet werden, auf welcher die Sensoren fest angebracht werden. Dadurch kann der Verkabelungsaufwand auf ein Mindestmaß reduziert werden und Versuche können auch schnell in der 5-Minuten-Pause aufgebaut werden. Mit maßgeschneiderten 3D-gedruckten Modellen kann alles geräumig in einem Organizer-Koffer befestigt werden.  
 
- *Abb. 1*:  Darstellung der Zeitabhängigkeit von zwei Signalquellen  
+  *Abb. 1*:  Darstellung der Zeitabhängigkeit von zwei Signalquellen  
               (Kondensatorspannung an Rechteckspannung) an einem AD-Wandler  
                     ![Figure 1](Hardware/Fotos/Kondensator.png)  
 
-*Abb. 2*:  Messkoffer mit Raspberry Pi, Vorschaltplatine und eingebautem Display  
-                    ![Figure 2](Hardware/Fotos/koffer_0.png)  
+Diese Anleitung beschreibt einen Vorschlag für einen allgemein zur Datenaufnahme 
+verwendbaren Messkoffer, in dem verschiedene Komponenten zur digitalen Erfassung 
+von Spannungen und Strömen sowie einfache Verstärkerschaltungen zur hochomigen 
+Messungen von elektrischen Ladungen als Spannung über einem Kondensator oder von
+kleinsten Strömen als Spannungsabfall über einem Widerstand von 100&nbsp;MΩ - 1&nbsp;GΩ 
+und zur Verstärkung von Spannungen im µV-Bereich mit einem Instrumentenverstärker 
+enthalten sind. 
+Abb.2a zeigt ein Foto des Aufbaus, und der Schaltplan ist in Abb. 2b gezeigt. 
+
+
+*Abb. 2a*:  Messkoffer mit Raspberry Pi, Vorschaltplatine und eingebautem Display  
+                    ![Figure 2a](Hardware/Fotos/koffer_0.png)  
+
+*Abb. 2b*:  Schaltplan der im Koffer enthaltenen Komponenten  
+                    ![Figure 2b](Hardware/Schaltplan_klein.png)  
+
 
 <a name="wasbraucheichundwiebaueichdaszusammen"></a>  
 
