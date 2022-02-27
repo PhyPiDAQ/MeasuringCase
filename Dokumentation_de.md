@@ -35,7 +35,7 @@ Es wird bereits eine Vielzahl unterschiedlicher Sensoren, wie verschiedene Analo
                     ![Figure 1](Hardware/Fotos/Kondensator.png)  
 
 
-Die Sensoren können einzeln mittels sogenannter Jumper-Kabeln mit dem Raspberry Pi verbunden werden, 
+Die Sensoren können einzeln mittels sogenannter Jumper-Kabel mit dem Raspberry Pi verbunden werden, 
 oder es kann die eigens für PhyPiDAQ entworfene Platine verwendet werden, auf welcher die Sensoren 
 fest angebracht werden. Dadurch kann der Verkabelungsaufwand auf ein Mindestmaß reduziert werden und 
 Versuche können auch schnell in der 5-Minuten-Pause aufgebaut werden. Mit maßgeschneiderten  
