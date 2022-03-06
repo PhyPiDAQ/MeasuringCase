@@ -1,4 +1,6 @@
-# PhyPiDAQ Building instructions for Measurement Case
+# PhyPiDAQ: Building instructions for Measurement Case
+
+Author: Dominik Braig, ["Digitales Messsystem mit aktiver Messbereichserweiterung zum Einsatz in physikalischen Praktika"](https://publish.etp.kit.edu/record/21995), Bachelor Arbeit, ETP 2020
 
 ---  
 

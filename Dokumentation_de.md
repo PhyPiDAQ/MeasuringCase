@@ -1,4 +1,7 @@
-# PhyPiDAQ Bauanleitung für einen Messkoffer
+# PhyPiDAQ: Bauanleitung für einen Messkoffer
+
+Autor: Dominik Braig, ["Digitales Messsystem mit aktiver Messbereichserweiterung zum Einsatz in physikalischen Praktika"](https://publish.etp.kit.edu/record/21995), Bachelor Arbeit, ETP 2020
+
 ---  
 
 Dies ist die deutsche Version der Dokumentation für Lehrkräfte von PhyPiDAQ, 
